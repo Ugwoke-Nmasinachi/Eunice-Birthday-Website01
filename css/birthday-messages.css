@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-box{
+    border:1px solid #ff6f91;
+    margin-top:50px;
+    margin-inline: auto;
+    padding: 30px;
+    width: 50%;
+    color: #ff6f91;
+    border-radius: 10px;
+}
+
+.box{
+    border: 1px solid #ff6f91;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.box .signature{
+    text-align: right;
+}
+
+@media screen and (width > 1050) and (width <= 1500){
+    .card-box{
+        width: 40%;
+    }
+}
+
+@media screen and (width > 1050) and (width < 1500){
+    .card-box{
+        width: 10%;
+    }
+}

@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    justify-content: right;
+    gap:20px;
+    background-color: #ffffff;/*white*/
+    border-bottom: 1px solid #ff6f91;/*soft pink*/
+    padding: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: #ff6f91;/*black*/
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color: #ffb6c1;
+}
+
+@media screen and (width <= 600px) {
+    .navbar{
+        justify-content: center;
+    }
+}
